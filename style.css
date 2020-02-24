@@ -1,0 +1,72 @@
+body {
+background: url('cover.jpg') no-repeat;
+text-align: center;
+background-size: cover;
+font-family: Arial;
+color: white;
+}
+ul{
+margin: 0px 19%;
+padding: 0px;
+list-style: none;
+}
+ul li{
+float: left;
+width: 200px;
+height: 40px;
+background-color: black;
+opacity: .8;
+line-height: 35px;
+text-align: center;
+font-size: 20px;
+margin-right: 2px;
+}
+ul li a {
+text-decoration: none;
+color:#8ad000;
+display: block;
+}
+ul li a:hover{
+background-color: purple;
+}
+ul li ul li{
+display: none;
+margin-left: -38px;
+}
+ul li:hover ul li{
+display: block;
+}
+
+#main{
+width: 1000px;
+height: 1000px;
+margin: 25px auto;
+}
+
+h1{
+text-align: center;
+font-family: Ravie;
+font-size: 60pt;
+color: #03004d;
+}
+
+h2{
+text-align: center;
+font-family: AR Darling;
+font-size: 80pt;
+color: #03004d;
+}
+
+
+p{
+font-family: Calibri;
+font-size: 17pt;
+text-align: left;
+text-indent: 48px;
+color: black;
+text-shadow: 0px 5px 10px red;
+}
+
+
+
+
